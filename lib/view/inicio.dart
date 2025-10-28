@@ -14,7 +14,7 @@ class _InicioState extends State<Inicio> {
   final _numeroB = TextEditingController();
   final _calculadora = Calculadora();
 
-  // Lista de ejemplos de números amigos
+  // ejemplos de numeros amigos
   final List<Map<String, int>> ejemplos = [
     {'a': 220, 'b': 284},
     {'a': 1184, 'b': 1210},

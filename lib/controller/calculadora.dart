@@ -6,9 +6,9 @@ class Calculadora {
   bool sonAmigos = false;
 
   void verificarAmigos(int a, int b) {
-    numeroA = Numero(a);
-    numeroB = Numero(b);
-    sonAmigos = numeroA!.esAmigoCon(numeroB!);
+    numeroA = Numero(a);              // crea objeto y calcula divisores
+    numeroB = Numero(b);              
+    sonAmigos = numeroA!.esAmigoCon(numeroB!);  // verifica si son amigos
   }
 
   String validarNumero(String texto) {
@@ -29,7 +29,7 @@ class Calculadora {
       return 'Número muy grande';
     }
     
-    return '';
+    return '';  // Sin errores
   }
 
   void limpiar() {
